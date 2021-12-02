@@ -16,6 +16,7 @@ public String accessToken;
 	@Test (priority=0,enabled = false)
 	public void Sign_up( ) {
 		RestAssured.baseURI= baseurl;
+		System.out.println("chegs in file");
 		
 		String requestBody =  "{\r\n"
 				+ "	\"email\": \"alpeshauthentication132@gmail.com\",\r\n"
